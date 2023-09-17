@@ -12,6 +12,9 @@
 		6C5DA05A2AB7341600A47D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5DA0592AB7341600A47D21 /* Assets.xcassets */; };
 		6C5DA05D2AB7341600A47D21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5DA05C2AB7341600A47D21 /* Preview Assets.xcassets */; };
 		6C5DA0642AB734AD00A47D21 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5DA0632AB734AD00A47D21 /* BasicView.swift */; };
+		6C5DA06A2AB7523A00A47D21 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5DA0672AB7523800A47D21 /* Pretendard-Light.otf */; };
+		6C5DA06B2AB7523A00A47D21 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5DA0682AB7523900A47D21 /* Pretendard-Medium.otf */; };
+		6C5DA06C2AB7523A00A47D21 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5DA0692AB7523A00A47D21 /* Pretendard-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,10 @@
 		6C5DA0592AB7341600A47D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5DA05C2AB7341600A47D21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C5DA0632AB734AD00A47D21 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		6C5DA0672AB7523800A47D21 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		6C5DA0682AB7523900A47D21 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		6C5DA0692AB7523A00A47D21 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		6C5DA06D2AB752B000A47D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +60,11 @@
 		6C5DA0542AB7341500A47D21 /* TextModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				6C5DA06D2AB752B000A47D21 /* Info.plist */,
+				6C5DA0652AB751E300A47D21 /* Assets */,
 				6C5DA0632AB734AD00A47D21 /* BasicView.swift */,
 				6C5DA0552AB7341500A47D21 /* TextModifiersApp.swift */,
 				6C5DA0572AB7341500A47D21 /* ContentView.swift */,
-				6C5DA0592AB7341600A47D21 /* Assets.xcassets */,
 				6C5DA05B2AB7341600A47D21 /* Preview Content */,
 			);
 			path = TextModifiers;
@@ -68,6 +76,25 @@
 				6C5DA05C2AB7341600A47D21 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C5DA0652AB751E300A47D21 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C5DA0662AB751ED00A47D21 /* Fonts */,
+				6C5DA0592AB7341600A47D21 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6C5DA0662AB751ED00A47D21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6C5DA0692AB7523A00A47D21 /* Pretendard-ExtraBold.otf */,
+				6C5DA0672AB7523800A47D21 /* Pretendard-Light.otf */,
+				6C5DA0682AB7523900A47D21 /* Pretendard-Medium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +157,9 @@
 			files = (
 				6C5DA05D2AB7341600A47D21 /* Preview Assets.xcassets in Resources */,
 				6C5DA05A2AB7341600A47D21 /* Assets.xcassets in Resources */,
+				6C5DA06C2AB7523A00A47D21 /* Pretendard-ExtraBold.otf in Resources */,
+				6C5DA06A2AB7523A00A47D21 /* Pretendard-Light.otf in Resources */,
+				6C5DA06B2AB7523A00A47D21 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TextModifiers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextModifiers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TextModifiers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextModifiers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
